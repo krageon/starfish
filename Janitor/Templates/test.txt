@@ -1,0 +1,5 @@
+﻿testje
+@foreach (var test in @Model.Tests)
+{
+    @test
+}

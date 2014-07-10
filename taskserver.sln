@@ -1,0 +1,104 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Majordomo", "Majordomo\Majordomo.csproj", "{F3E0C90D-F5F7-40D4-A0B1-6C1BF9D9A433}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Majordomo-Protocol", "Majordomo-Protocol\Majordomo-Protocol.csproj", "{16E7D953-DDAC-44D7-AC7D-8C4F807C3D1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Majordomo.Test", "Majordomo.Broker.Test\Majordomo.Test.csproj", "{E0232AE8-E8C1-4C59-BCA5-EA2E40F1164D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{28BE71FA-9539-424B-B0DF-48DA8EF28E59}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		taskserver.vsmdi = taskserver.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerWorker", "LoggerWorker\LoggerWorker.csproj", "{0698A41A-79EF-4039-AA26-58465A029D6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Janitor", "Janitor\Janitor.csproj", "{C5F15D7E-E7D9-4F17-BEDE-75C8C959CC41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Janitor.Test", "Janitor.Test\Janitor.Test.csproj", "{A48FE4C2-233D-45B0-8BA5-A25B9391CAB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clerk", "Clerk\Clerk.csproj", "{FCDE7982-FE44-41D3-94A7-FCC8BF005DFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailProvider", "EmailProvider\EmailProvider.csproj", "{53C835D9-AAD8-4886-AD35-E5D8B0994AA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Majordomo.Client", "Majordomo.Client\Majordomo.Client.csproj", "{7AA8CABE-A9FF-4675-A8D8-18A1B82D8C66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigProvider", "ConfigProvider\ConfigProvider.csproj", "{C3DDF607-D730-43D5-83A3-627E6708ECE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClrZmqTest", "ClrZmqTest\ClrZmqTest.csproj", "{D711849C-9DE0-44BF-96D6-EBA77001B0D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrokerConsole", "BrokerConsole\BrokerConsole.csproj", "{04487D9A-A6BB-416D-BF8D-8E7723DF2408}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MajordomoTestClient", "MajordomoTestClient\MajordomoTestClient.csproj", "{9718007C-B0F0-4E0D-902C-92549F0310AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3E0C90D-F5F7-40D4-A0B1-6C1BF9D9A433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3E0C90D-F5F7-40D4-A0B1-6C1BF9D9A433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3E0C90D-F5F7-40D4-A0B1-6C1BF9D9A433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3E0C90D-F5F7-40D4-A0B1-6C1BF9D9A433}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16E7D953-DDAC-44D7-AC7D-8C4F807C3D1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16E7D953-DDAC-44D7-AC7D-8C4F807C3D1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16E7D953-DDAC-44D7-AC7D-8C4F807C3D1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16E7D953-DDAC-44D7-AC7D-8C4F807C3D1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0232AE8-E8C1-4C59-BCA5-EA2E40F1164D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0232AE8-E8C1-4C59-BCA5-EA2E40F1164D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0232AE8-E8C1-4C59-BCA5-EA2E40F1164D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0232AE8-E8C1-4C59-BCA5-EA2E40F1164D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0698A41A-79EF-4039-AA26-58465A029D6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0698A41A-79EF-4039-AA26-58465A029D6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0698A41A-79EF-4039-AA26-58465A029D6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0698A41A-79EF-4039-AA26-58465A029D6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5F15D7E-E7D9-4F17-BEDE-75C8C959CC41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5F15D7E-E7D9-4F17-BEDE-75C8C959CC41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5F15D7E-E7D9-4F17-BEDE-75C8C959CC41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5F15D7E-E7D9-4F17-BEDE-75C8C959CC41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A48FE4C2-233D-45B0-8BA5-A25B9391CAB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A48FE4C2-233D-45B0-8BA5-A25B9391CAB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A48FE4C2-233D-45B0-8BA5-A25B9391CAB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A48FE4C2-233D-45B0-8BA5-A25B9391CAB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCDE7982-FE44-41D3-94A7-FCC8BF005DFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCDE7982-FE44-41D3-94A7-FCC8BF005DFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCDE7982-FE44-41D3-94A7-FCC8BF005DFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCDE7982-FE44-41D3-94A7-FCC8BF005DFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53C835D9-AAD8-4886-AD35-E5D8B0994AA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53C835D9-AAD8-4886-AD35-E5D8B0994AA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53C835D9-AAD8-4886-AD35-E5D8B0994AA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53C835D9-AAD8-4886-AD35-E5D8B0994AA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AA8CABE-A9FF-4675-A8D8-18A1B82D8C66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AA8CABE-A9FF-4675-A8D8-18A1B82D8C66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AA8CABE-A9FF-4675-A8D8-18A1B82D8C66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AA8CABE-A9FF-4675-A8D8-18A1B82D8C66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3DDF607-D730-43D5-83A3-627E6708ECE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3DDF607-D730-43D5-83A3-627E6708ECE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3DDF607-D730-43D5-83A3-627E6708ECE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3DDF607-D730-43D5-83A3-627E6708ECE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D711849C-9DE0-44BF-96D6-EBA77001B0D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D711849C-9DE0-44BF-96D6-EBA77001B0D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D711849C-9DE0-44BF-96D6-EBA77001B0D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D711849C-9DE0-44BF-96D6-EBA77001B0D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04487D9A-A6BB-416D-BF8D-8E7723DF2408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04487D9A-A6BB-416D-BF8D-8E7723DF2408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04487D9A-A6BB-416D-BF8D-8E7723DF2408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04487D9A-A6BB-416D-BF8D-8E7723DF2408}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9718007C-B0F0-4E0D-902C-92549F0310AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9718007C-B0F0-4E0D-902C-92549F0310AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9718007C-B0F0-4E0D-902C-92549F0310AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9718007C-B0F0-4E0D-902C-92549F0310AC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = taskserver.vsmdi
+	EndGlobalSection
+EndGlobal

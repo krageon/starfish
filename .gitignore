@@ -1,0 +1,16 @@
+*.suo
+**/obj
+**.cache
+**.log
+**.manifest
+**/bin
+**/Bin
+packages/*/
+.DS_STORE
+Thumbs.db
+libs
+workers
+*.user
+log/
+*/FakesAssemblies
+*.tmp

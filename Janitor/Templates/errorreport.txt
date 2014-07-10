@@ -1,0 +1,8 @@
+﻿<table>
+@foreach (var error in @Model.Errors)
+{
+    <tr>
+        <td class="error">@error</td>
+    </tr>
+}
+</table>
