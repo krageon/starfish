@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.IO;
 using System.Linq;
 using System.Net.Mail;
@@ -11,19 +12,18 @@ namespace EmailProvider
 {
     public class EmailProvider
     {
-        public static string host = "";
-        public static int port = 587;
+        public static string host = ConfigurationManager.AppSettings["email_host"];
+        public static int port = Int32.Parse(ConfigurationManager.AppSettings["email_port"]);
 
-        public static string user = "";
-        public static string pass = "";
+        public static string user = ConfigurationManager.AppSettings["email_user"];
+        public static string pass = ConfigurationManager.AppSettings["email_pass"];
 
-        public static string from = "";
-        public static string default_to = "";
+        public static string from = ConfigurationManager.AppSettings["email_from"];
+        public static string default_to = ConfigurationManager.AppSettings["email_default_to"];
 
-        public static string default_subject = "";
+        public static string default_subject = ConfigurationManager.AppSettings["email_default_subject"];
 
-        public static string default_body =
-            "None";
+        public static string default_body = ConfigurationManager.AppSettings["email_default_body"];
 
         public static SmtpClient EmailClient
         {
