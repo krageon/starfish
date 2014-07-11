@@ -82,7 +82,7 @@ namespace Majordomo
             return message;
         }
 
-        public virtual String SendReceiveNothing(List<byte[]> msg)
+        public virtual void SendReceiveNothing(List<byte[]> msg)
         {
             var outp = MDP.Client.Request(this.Service, msg);
             outp.Prepend(new[] {new byte[0]});
