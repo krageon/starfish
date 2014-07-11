@@ -82,6 +82,14 @@ namespace Majordomo
             return message;
         }
 
+        public virtual String SendReceiveNothing(List<byte[]> msg)
+        {
+            var outp = MDP.Client.Request(this.Service, msg);
+            outp.Prepend(new[] {new byte[0]});
+
+            this.Socket.SendAll(outp);
+        }
+
         /// <summary>
         /// Creates a request using the input and MDP.Client.request (Majordomo-Protocol).
         /// Essentially: 
